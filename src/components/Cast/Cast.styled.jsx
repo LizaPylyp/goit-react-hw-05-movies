@@ -3,9 +3,9 @@ import styled from "@emotion/styled";
 const CastList = styled.ul`
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
 `;
 
 const CastItem = styled.li`
@@ -13,7 +13,7 @@ const CastItem = styled.li`
     width: calc((100% - 60px) / 5);
     min-width: 170px;
     font-size: 16px;
-    background-color: #f2eee6;
+    background-color: grey;
 `;
 
 const CastText = styled.div`
