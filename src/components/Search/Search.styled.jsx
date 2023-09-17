@@ -12,7 +12,7 @@ const Input = styled.input`
 
 const Button = styled.button`
     padding: 5px;
-    border: 1px solid #978a8a;
+    border: 1px solid white;
     border-radius: 2px;
 `;
 
