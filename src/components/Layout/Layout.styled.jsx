@@ -6,29 +6,29 @@ const Header = styled.header`
     position: fixed;
     padding: 10px 15px;
     width: 100%;
-    background-color: blue;
+    background-color: grey;
 `;
 
 const Navi = styled.nav`
     display: flex;
-    gap: 30px;
+    gap: 25px;
 `;
 
 const Main = styled.main`
-    padding: 50px 20px 20px 20px;
+    padding: 45px 22px 22px 22px;
 `
 
 const StyledLink = styled(NavLink)`
-  color: black;
+  color: blue;
   background-color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 7px;
   border-radius: 2px;
 `;
 
 const BunnerFilms =styled.img`
-width: 266px;
-height: 400px;
+width: 265px;
+height: 398px;
 border-radius: 5px;
 object-fit: cover;
 transition: -webkit-transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
